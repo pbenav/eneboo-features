@@ -1,0 +1,10 @@
+[feature]
+type=ext
+code=S001
+name=tresdecimales
+<<<<<<< HEAD
+description=Tres decimales en pvpunitario 
+=======
+description=Tres decimales en pvpunitario y cantidad
+>>>>>>> ee6492ff9202cdbf948442ba19eef19345a00713
+
