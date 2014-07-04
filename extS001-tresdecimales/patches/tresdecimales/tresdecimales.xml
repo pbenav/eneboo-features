@@ -1,16 +1,13 @@
 <flpatch:modifications xmlns:flpatch="http://www.abanqg2.com/es/directori/abanq-ensambla/?flpatch" name="tresdecimales">
-  <flpatch:deleteFile path="./" name="README"/>
   <flpatch:addFile path="./" name="elmellano.feature.ini"/>
-  <flpatch:deleteFile path="./" name="standard.feature.ini"/>
-  <flpatch:patchXml path="build/" name="base.build.xml" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/almacen/tables/" name="lineasregstocks.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/almacen/tables/" name="lineastransstock.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/almacen/tables/" name="stocks.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/facturacion/tables/" name="lineasalbaranescli.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/facturacion/tables/" name="lineasalbaranesprov.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/facturacion/tables/" name="lineasfacturascli.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/facturacion/tables/" name="lineasfacturasprov.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/facturacion/tables/" name="lineaspedidoscli.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/facturacion/tables/" name="lineaspedidosprov.mtd" style="legacy1"/>
-  <flpatch:patchXml path="build/base/facturacion/facturacion/tables/" name="lineaspresupuestoscli.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/almacen/tables/" name="lineasregstocks.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/almacen/tables/" name="lineastransstock.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/almacen/tables/" name="stocks.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineasalbaranescli.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineasalbaranesprov.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineasfacturascli.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineasfacturasprov.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineaspedidoscli.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineaspedidosprov.mtd" style="legacy1"/>
+  <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineaspresupuestoscli.mtd" style="legacy1"/>
 </flpatch:modifications>
